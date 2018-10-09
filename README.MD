@@ -1,8 +1,9 @@
 # 基于maven + jsp+ servlet webapp 项目
 ## 项目最小配置启动
 
-### web.xml
-#### tomcat 8.x 版本 servlet 3.1, JSP 2.3, EL 3.0 ,jstl 1.2 
+### web.xml 未设置 任何框架
+#### tomcat 8.x 版本 : servlet 3.1, JSP 2.3, EL 3.0 ,jstl 1.2 
+
 ``` 
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app
@@ -27,7 +28,7 @@
 
 ```
 
-### pom.xml
+### pom.xml， 为引入任何关于javaWeb 相关的 jar 包
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 
@@ -118,4 +119,6 @@
 
 `clean install` 编译构建发布
 
-![](http://one17356s.bkt.clouddn.com/18-10-9/70913494.jpg)
+![](http://one17356s.bkt.clouddn.com/18-10-10/57433277.jpg)
+
+IntelliJ IDEA  编译后将代码发布到`webapps/ROOT`目录下既没有项目名字。
